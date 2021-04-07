@@ -98,6 +98,9 @@ var (
 		// Poor signal to noise ratio.
 		"-Wno-unused",
 
+		// Warnings from clang-12
+		"-Wno-compound-token-split-by-macro",
+
 		// Global preprocessor constants.
 
 		"-DANDROID",
